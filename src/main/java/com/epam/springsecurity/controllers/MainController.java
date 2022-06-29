@@ -10,4 +10,9 @@ public class MainController {
     public String getInfo(){
         return "MVC application";
     }
+
+    @GetMapping("/about")
+    public String getAbout() {
+        return "This is about MVC application";
+    }
 }
